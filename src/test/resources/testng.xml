@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Assignment6Suite" parallel="false">
+  <!-- Change runMode to cloud when running on Sauce -->
+  <parameter name="runMode" value="local"/>
+  <parameter name="browser" value="chrome"/>
+
+  <test name="DDT Login Tests">
+    <classes>
+      <class name="tests.LoginDDTTest"/>
+    </classes>
+  </test>
+</suite>
