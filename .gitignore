@@ -1,0 +1,51 @@
+# =========================
+# Java / Maven
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# Test Outputs (DO NOT COMMIT)
+# =========================
+reports/
+logs/
+screenshots/
+surefire-reports/
+
+# =========================
+# Selenium / Browser temp files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# IDE files
+# =========================
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+
+# =========================
+# Optional: local config overrides
+# =========================
+config-local.properties
